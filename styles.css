@@ -15,7 +15,7 @@ body {
 
 
 .container {
-    width: 70%;
+    width: 95%;
     margin: auto;
     background-color: var(--main);
     padding: 1%;
@@ -31,7 +31,7 @@ body {
 h1 { 
     display: inline;
     flex: 70%;
-    font-size: 3.5rem;
+    font-size: 8vw;
     color: var(--accent);
 }
 
@@ -48,7 +48,7 @@ input, ::placeholder {
 
 
 #intro {
-    font-size: 1.3rem;
+    font-size: 3vw;
 }
 
 #search {
@@ -101,3 +101,19 @@ input, ::placeholder {
     justify-content: center;
 }
 
+@media (min-width: 700px) {
+
+.container {
+    width: 70%;
+}
+
+h1 { 
+    font-size: 3.5rem;
+}
+
+#intro {
+    font-size: 1.3rem;
+}
+
+    
+}
